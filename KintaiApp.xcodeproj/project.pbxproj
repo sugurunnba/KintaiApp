@@ -13,6 +13,7 @@
 		3DCE43D928746F6A00A26F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE43D728746F6A00A26F95 /* Main.storyboard */; };
 		3DCE43DB28746F6F00A26F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE43DA28746F6F00A26F95 /* Assets.xcassets */; };
 		3DCE43DE28746F6F00A26F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE43DC28746F6F00A26F95 /* LaunchScreen.storyboard */; };
+		3DDBE6A7288064B6007B43C1 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBE6A6288064B6007B43C1 /* MainTableViewController.swift */; };
 		3DF01D1D28804A7A000CC0CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DF01D1C28804A7A000CC0CC /* GoogleService-Info.plist */; };
 		BD96F9C65EB40B2D0006B422 /* Pods_KintaiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCCAADD3D24E1FFC8095A2A /* Pods_KintaiApp.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		3DCE43DA28746F6F00A26F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCE43DD28746F6F00A26F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DCE43DF28746F6F00A26F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDBE6A6288064B6007B43C1 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		3DF01D1C28804A7A000CC0CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		483BF99D33BE039BD94F660F /* Pods-KintaiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KintaiApp.release.xcconfig"; path = "Target Support Files/Pods-KintaiApp/Pods-KintaiApp.release.xcconfig"; sourceTree = "<group>"; };
 		6FCCAADD3D24E1FFC8095A2A /* Pods_KintaiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KintaiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				3DCE43D328746F6A00A26F95 /* SceneDelegate.swift */,
 				3DCE43D528746F6A00A26F95 /* ViewController.swift */,
 				3DCE43D728746F6A00A26F95 /* Main.storyboard */,
+				3DDBE6A6288064B6007B43C1 /* MainTableViewController.swift */,
 				3DCE43DA28746F6F00A26F95 /* Assets.xcassets */,
 				3DCE43DC28746F6F00A26F95 /* LaunchScreen.storyboard */,
 				3DCE43DF28746F6F00A26F95 /* Info.plist */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDBE6A7288064B6007B43C1 /* MainTableViewController.swift in Sources */,
 				3DCE43D628746F6A00A26F95 /* ViewController.swift in Sources */,
 				3DCE43D228746F6A00A26F95 /* AppDelegate.swift in Sources */,
 				3DCE43D428746F6A00A26F95 /* SceneDelegate.swift in Sources */,
