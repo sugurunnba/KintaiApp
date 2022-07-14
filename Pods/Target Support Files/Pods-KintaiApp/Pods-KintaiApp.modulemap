@@ -1,0 +1,6 @@
+framework module Pods_KintaiApp {
+  umbrella header "Pods-KintaiApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
