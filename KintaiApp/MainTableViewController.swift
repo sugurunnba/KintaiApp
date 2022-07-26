@@ -10,6 +10,7 @@ import UIKit
 class MainTableViewController: UITableViewController {
     
     let memos = ["1日", "2日", "3日"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

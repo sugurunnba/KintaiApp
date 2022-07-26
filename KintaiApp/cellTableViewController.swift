@@ -25,6 +25,11 @@ class cellTableViewController: UITableViewController, UITextFieldDelegate {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
+    @IBAction func pushBackButton(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
     //UIDatePickerをインスタンス化
     let timePicker: UIDatePicker = {
         let dp = UIDatePicker()
