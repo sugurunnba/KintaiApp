@@ -19,6 +19,7 @@ class sampleTableViewCell: UITableViewCell ,UIPickerViewDelegate, UIPickerViewDa
     //datePickerのプロパティを作る
     var datePickerView  :UIDatePicker = UIDatePicker()
     
+    
     let list1:[String] = ["10","に","さん","よん","ご",]
     let list2:[String] = ["45","2","3","4","5","6","7"]
     
@@ -37,12 +38,16 @@ class sampleTableViewCell: UITableViewCell ,UIPickerViewDelegate, UIPickerViewDa
         cellce.numberTextField.delegate = self
         
         // 日付ピッカーをキーボードにする設定
-        datePickerView.datePickerMode = UIDatePicker.Mode.dateAndTime
+        datePickerView.datePickerMode = UIDatePicker.Mode.time
         datePickerView.timeZone = TimeZone(identifier: "Asia/Tokyo")
         datePickerView.locale = Locale(identifier: "ja_JP")
         datePickerView.addTarget(self, action: Selector(("dateChange")), for: .valueChanged)
         cellce.dateTextField.inputView = datePickerView
         cellce.dateTextField.delegate = self
+        
+        if #available(iOS 13.4, *) {
+            datePickerView.preferredDatePickerStyle = .wheels
+        }
     }
     
     override func awakeFromNib() {
